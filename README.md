@@ -9,19 +9,18 @@ To analyze trends and patterns of the results of math and reading score, school 
  
 ###Explain the purpose of this analysis.
 This analysis was done by using Anaconda and Jupyter notebook with the help of Python Programming language. We got clean complete data by removing missing grades and analyzing school summary based on different groups. Maria had found some dishonesty in 9th grade score in Thomas High School, so for this project, she wants us to replace the math and reading score by Nan(not a number) for Thomas High School and keeping other scores same for other schools. We need to analyze again the district school reports by different groups and compare the data with previous one to get an overall analysis.
+
 ![png_THS 9th grade after replacing with Nan_LI](https://github.com/Ruma-T/School_District_Analysis/blob/main/Resources/THS%209th%20grade%20after%20replacing%20with%20Nan_LI.jpg)
 
  #Results :
 How is the district summary affected?
 There was no big change in district summary, except the overall passing score changed a little.
-District Summary Before
-
-District Summary After
-
-
+District Summary 
+![png_District Summary After](https://github.com/Ruma-T/School_District_Analysis/blob/main/Resources/District%20Summary%20After.PNG)
 
 
 Before finding the dishonesty,performance of Thomas High School
+![png_Before Dishonesty Found THS](https://github.com/Ruma-T/School_District_Analysis/blob/main/Resources/Before%20Dishonesty%20Found%20THS.PNG)
 
 
 After Replacing 9th grade score with Nan
@@ -51,7 +50,9 @@ How does replacing the ninth-grade scores affect the following:
 
 #Scores by school type
 	There is no change noticed for school type Thomas High School's 9th grade score was replaced.
+	
 ##Summary: 
+
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 •	Overall passing has changed to 64.9% from 65.17%
 •	Math and reading score changed for 9th grade for Thomas High School
