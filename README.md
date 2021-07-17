@@ -9,20 +9,33 @@ To analyze trends and patterns of the results of math and reading score, school 
  
 ###Explain the purpose of this analysis.
 This analysis was done by using Anaconda and Jupyter notebook with the help of Python Programming language. We got clean complete data by removing missing grades and analyzing school summary based on different groups. Maria had found some dishonesty in 9th grade score in Thomas High School, so for this project, she wants us to replace the math and reading score by Nan(not a number) for Thomas High School and keeping other scores same for other schools. We need to analyze again the district school reports by different groups and compare the data with previous one to get an overall analysis.
+![png_THS 9th grade after replacing with Nan_LI](https://github.com/Ruma-T/School_District_Analysis/blob/main/Resources/THS%209th%20grade%20after%20replacing%20with%20Nan_LI.jpg)
 
  #Results :
 How is the district summary affected?
 There was no big change in district summary, except the overall passing score changed a little.
+District Summary Before
+
+District Summary After
+
+
+
+
+Before finding the dishonesty,performance of Thomas High School
+
 
 After Replacing 9th grade score with Nan
-![png_School Summary Before]( School_District_Analysis/School Summary Before.PNG at main · Ruma-T/School_District_Analysis (github.com))
+
+![png_School Summary Before](https://github.com/Ruma-T/School_District_Analysis/blob/main/Resources/School%20Summary%20Before.PNG)
+
+
 After Replacing 10-12th grade math and reading score for THS
 
-![png_School Summary After] (School_District_Analysis/School Summary After.PNG at main · Ruma-T/School_District_Analysis (github.com)
+![png_School Summary After](https://github.com/Ruma-T/School_District_Analysis/blob/main/Resources/School%20Summary%20After.PNG)
 
 How is the school summary affected?
 There is no change is top and bottom five schools.
-![png_top five school](
+![png_top five school](https://github.com/Ruma-T/School_District_Analysis/blob/main/Resources/Top%20five%20performing%20schools.PNG)
 
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 	There is no change in Thomas High School's performance after replacing 9th graders math and reading score.
@@ -44,3 +57,4 @@ Summarize four changes in the updated school district analysis after reading and
 •	Math and reading score changed for 9th grade for Thomas High School
 •	For Thomas High School total students were 1635, after replacing with Nan's, the student count was 1174.
 •	Overall passing score for math and Reading came down from 90.94% to 65.07% before replacing with 10-12th grade score and changed to 90.63% for Thomas High School. 
+
